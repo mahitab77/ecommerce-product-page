@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<HTML>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <Body>       
+        <div id="wrapper">
+            <div id="divnavigator">
+                <div id="navleftdiv">
+                       <img id="menuicon" src="./images/icon-menu.svg" alt="">
+                       <div id="sidebar">
+                            <div id="ddmenu">
+                               <a class="dd-link" href="">Collections</a>
+                               <a class="dd-link" href="">Men</a> 
+                               <a class="dd-link" href="">Women</a>
+                               <a class="dd-link" href="">About</a>
+                               <a class="dd-link" href="">Contact</a>
+                            </div>
+                            <div id="overlay"></div> 
+                        </div>
+                       <img id="closeicon" src="./images/icon-close.svg" alt="">               
+                       <img class="logo" src="./images/logo.svg" alt="">
+                
+                       <div id="navlinksdiv">
+                            <div class="diva"> <a class="nav-link" href="">Collections</a> </div>
+                            <div class="diva"> <a class="nav-link" href="">Men</a> </div>
+                            <div class="diva"> <a class="nav-link" href="">Women</a> </div>
+                            <div class="diva"> <a class="nav-link" href="">About</a> </div>
+                            <div class="diva"> <a class="nav-link" href="">Contact</a> </div>
+                       </div>
+                </div>
+                <div id="navimg">
+                      <div id="itemsincartcount"><label id="counterincart">0</label></div>
+                      <img id="cartid"  class="cart" src="./images/icon-cart.svg" alt="">
+                      <img class="avatar" src="./images/image-avatar.png" alt="">    
+                      <div id="cartbox" currentstate="displaynone">
+                           <div id="cartheader"><label id="chtext">Cart</label></div>
+                           <div id="itemincart">                                                        
+                                <div id="itemcartthumb">
+                                    <img id="cartthumb" src="./images/image-product-1-thumbnail.jpg" alt="">
+                                </div>
+                                <div id="pricequantity"><label id =emptyfull>Your cart is empty</label></div>
+                                <div id="deleteicon"> <img src="./images/icon-delete.svg" alt=""> </div>                           
+                           </div>
+                           <button id="cartbutton">Checkout</button>
+                      </div>                
+                </div>                               
+            </div>            
+          <!--  <img id="line" src="./images/line.png" alt=""> -->   
+            <div id="divproduct">
+                   <div id="divprodimg">                        
+                          <img id="prodimg" src="./images/image-product-1.jpg" alt="">
+                          <div id="divpreviousnext">
+                               <img id="prev" class="prevnex" src="./images/icon-previous.svg" alt="">
+                               <img  id="nex" class="prevnex" src="./images/icon-next.svg" alt="">
+                          </div>
+                          <div id="divprodthumb" class="thumbnails">
+                               <img id="thumbone" class="thumbimg" src="./images/image-product-1-thumbnail.jpg" alt="">
+                               <img id="thumbtwo" class="thumbimg" src="./images/image-product-2-thumbnail.jpg" alt="">
+                               <img id="thumbthree" class="thumbimg" src="./images/image-product-3-thumbnail.jpg" alt="">
+                               <img id="thumbfour" class="thumbimg" src="./images/image-product-4-thumbnail.jpg" alt="">
+                          </div>
+                    </div>
+                    <div id="divprodinfo">
+                         <div id="infotext">
+                             <h class="sneakcomp" >SNEAKER COMPANY</h>
+                             <h1 class="prod-title">Fall Limited Edition Sneakers</h1>
+                             <P class="prod-desc">These low-profile sneakers are your perfect casual wear companion. 
+                                Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</P>
+                         </div>
+                         <div id="infoprice">
+                             <div id="discount">
+                                <p class="price">$125.00</p> 
+                                <p class="discountpercent">50%</p>
+                             </div>
+                             <p class="originalprice" >$250.00</p>
+                         </div>
+                         <div id="infofooter">
+                             <div id="counter">
+                                  <img id="minusicon" src="./images/icon-minus.svg" alt="">
+                                  <label id="thecounter">0</label>
+                                  <img id="plusicon" src="./images/icon-plus.svg" alt="">
+                             </div>
+                             <button id="buttondeco"><img class="cart" src="./images/icon-cart-white.png">&nbsp;Add to cart</button>  
+                            </div>
+                    </div>
+            </div>
+        </div> 
+        <script src="index.js"></script>     
+    </Body>
+</HTML>
