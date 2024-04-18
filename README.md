@@ -15,6 +15,6 @@ this challenge needed a good understanding of HTML, CSS and JavaScript.
 ## Deploying  project
 you can view the website on vercel : https://ecommerce-product-page-seven-woad.vercel.app/
 
-## Submitting your solution
+## Solution 
 you can view submitted solution to this challenge on frontend mentor : https://www.frontendmentor.io/solutions/htmlcssjs-7DFxlFmSST
 
